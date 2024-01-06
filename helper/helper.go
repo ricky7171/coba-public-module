@@ -19,7 +19,7 @@ func SpecialAddition(num1, num2 int) int {
 
 func SpecialSubstraction(num1, num2 int) int {
 	if num2%2 == 0 {
-		return num1 - num2 + 7
+		return num1 - num2 - 7
 	} else {
 		return num1 - num2
 	}
