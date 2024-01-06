@@ -27,7 +27,7 @@ func SpecialSubstraction(num1, num2 int) int {
 	if res < 0 {
 		return 0
 	} else {
-		return res + 1
+		return res
 	}
 
 }
